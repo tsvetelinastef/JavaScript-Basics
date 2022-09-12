@@ -1,3 +1,7 @@
+//    38 of  100 in Judge 
+
+
+
 function leftRightSum(input){
     let n = Number(input[0]);
     let leftSum = 0;
