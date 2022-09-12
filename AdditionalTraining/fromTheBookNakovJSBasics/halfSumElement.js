@@ -1,25 +1,5 @@
 function halfSumElement(input) {
-    let n = Number(input[0]);
-    let max = Number.NEGATIVE_INFINITY;
-
-    let sum = 0;
-
-    for (let i = 1; i <= n; i++) {
-        let num = Number(input[i]);
-        if (num > max) {
-            max = num;
-        }
-        sum += num;
-    }
-
-    if (sum === max) {
-        // max = num;
-        console.log("No");
-        console.log("Diff = " + sum);
-    } else {
-        console.log("Yes");
-        console.log("Sum = " + Math.abs(max - sum));
-    }
+    
 
 }
 
