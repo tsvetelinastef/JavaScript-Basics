@@ -18,7 +18,7 @@ function walking(input) {
   }
 
   if (command === "Going home") {
-    currentSteps = Number(input[index]);
+    currentSteps = Number(input[index]); //  let currentSteps = Number(input[index]);
     index++;
     steps += currentSteps;
   }
