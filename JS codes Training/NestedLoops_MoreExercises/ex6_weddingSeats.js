@@ -21,9 +21,7 @@ function weddingSeats(input) {
             let curSector = i;
             let curRow = j;
             let curSeat = k;
-            res = `${String.fromCharCode(
-              curSector
-            )}${curRow}${String.fromCharCode(curSeat + 96)}`;
+            res = `${String.fromCharCode(curSector)}${curRow}${String.fromCharCode(curSeat + 96)}`;
             console.log(res);
             counter++;
           }
@@ -32,9 +30,7 @@ function weddingSeats(input) {
             let curSector = i;
             let curRow = j;
             let curSeat = l;
-            res = `${String.fromCharCode(
-              curSector
-            )}${curRow}${String.fromCharCode(curSeat + 96)}`;
+            res = `${String.fromCharCode(curSector)}${curRow}${String.fromCharCode(curSeat + 96)}`;
             console.log(res);
             counter++;
           }
